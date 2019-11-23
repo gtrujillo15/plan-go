@@ -5,14 +5,17 @@
 /* NAVIGATION */
 
 header {
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: #FBD2D7; /* millenial pink */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #f3efea; /* tan */
 }
 
 .logo {
     font-family: 'Sacramento', cursive;
-    font-size: 30px;
 }
 
 nav {
@@ -23,7 +26,12 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 25%;
+    /* padding-left: 25%; */
+}
+
+h1 {
+    display: flex;
+    align-self: flex-start;
 }
 
 li {
@@ -39,12 +47,14 @@ a {
 
 /* MAIN CONTENT */
 
-.about-short {
+/* ABOUT */
+
+.about {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 2%;
+    padding-top: 8%;
     padding-bottom: 2%;
 }
 
@@ -58,12 +68,63 @@ a {
     height: 180px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+    align-self: center;
 }
+
+/* SPREAD */
+
+.spread {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #FBD2D7; /* millenial pink */
+}
+
+.spread-paragraph {
+    width: 40%;
+    height: 180px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    align-self: center;
+}
+
+.spread-img {
+    width: 540px;
+    height: 362px;
+}
+
+/* ON THE GO */
+
+.portable {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.portable-paragraph {
+    width: 40%;
+    height: 180px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    align-self: center;
+}
+
+.portable-img {
+    width: 372px;
+    height: 416px;
+}
+
 
 /* FOOTER */
 
 footer {
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: #FBD2D7; /* millenial pink */
+    background-color: #f3efea; /* tan */
 }
