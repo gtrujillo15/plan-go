@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
     <title>Plan-Go</title>
 </head>
 
@@ -24,14 +26,16 @@
 
     <!-- MAIN CONTENT -->
     <main>
-
-        <aside>
-            <!-- List of types of spreads and links -->
-        </aside>
-        <section class="listing">
-            <!-- Listing of spreads -->
-        </section>
- 
+        <div class="form-wrapper">
+            <h2>Register</h2>
+            <form action="">
+                <p>Email:</p><input type="email" name="email" id="">
+                <p>Password:</p><input type="password" name="password" id="">
+                <p>Confirm Password:</p><input type="password" name="confirmpassword" id="">
+                <input type="button" value="Submit" id="loginsubmit">
+            </form>
+            <p>*Please don't use your bank password. There's no security on this site yet.</p>
+        </div>
     </main>
 
     <!-- FOOTER -->
