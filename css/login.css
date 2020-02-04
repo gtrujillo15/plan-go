@@ -19,12 +19,13 @@ h2, h3 {
 }
 
 p {
-    text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 30%;
+    display: inline-block;
 }
 
 input {
-    margin-left: 40%;
+    margin-left: 2%;
 }
 
 #loginsubmit {

@@ -1,0 +1,35 @@
+main {
+    height: 550px;
+    width: 100%;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-wrapper {
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #FBD2D7;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 30%;
+    display: inline-block;
+}
+
+input {
+    margin-left: 2%;
+}
+
+#loginsubmit {
+    margin-top: 5%;
+    margin-left: 46%;
+    font-family: 'Source Sans Pro', sans-serif;
+}

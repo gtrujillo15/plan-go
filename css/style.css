@@ -16,6 +16,7 @@ header {
 
 .logo {
     font-family: 'Sacramento', cursive;
+    margin-top: 0;
 }
 
 nav {
